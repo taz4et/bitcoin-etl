@@ -2,7 +2,7 @@ import math
 from decimal import Decimal
 
 
-def bitcoin_to_satoshi(bitcoin_value):
+def bitcoin_to_satoshi(bitcoin_value): 
     if bitcoin_value is None:
         return bitcoin_value
 
