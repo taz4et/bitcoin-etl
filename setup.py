@@ -3,7 +3,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 try:
     from bitcoinetl import core
-except:
+except: 
     pass
 
 from setuptools import setup, find_packages
