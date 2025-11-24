@@ -2,7 +2,7 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(__file__))
 try:
-    from bitcoinetl import core 
+    from bitcoinetl import core
 except:
     pass
 
